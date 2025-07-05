@@ -28,7 +28,6 @@ cd gooey-tooltip
 npm install
 npm run dev
 ```
-
 ---
 
 ## 📁 Estructura
