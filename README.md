@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧪 Gooey Tooltip
 
-## Getting Started
+Un tooltip animado con efecto líquido (gooey) inspirado en [rauno.me](https://rauno.me/craft/gooey-tooltip), construido con **Next.js**, **Tailwind CSS** y **Framer Motion**.
 
-First, run the development server:
+---
+
+## ✨ Características
+
+- 🫧 **Efecto gooey real** usando filtros SVG
+- 🎥 Animaciones suaves con [Framer Motion](https://www.framer.com/motion/)
+- 🧼 Interacción precisa: el tooltip se activa solo sobre el botón
+- 🧩 Componente limpio, reutilizable y fácil de integrar
+- ⚡ Totalmente compatible con Next.js y Tailwind CSS
+
+---
+
+## 🚀 Demo
+
+[🔗 Ver la demo en Vercel](https://tudominio.vercel.app) <!-- reemplazá esto cuando la subas -->
+
+---
+
+## 📦 Instalación
 
 ```bash
+git clone https://github.com/franlopezmora/gooey-tooltip
+cd gooey-tooltip
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Estructura
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│ ├── favicon.ico
+│ ├── globals.css
+│ ├── layout.js
+│ └── page.js
+├── components/
+│ └── GooeyTooltip.jsx
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ Tecnologías
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- Filtros SVG personalizados
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Créditos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Inspirado por [Rauno Freiberg](https://rauno.me).
